@@ -13,7 +13,10 @@ const Header = () => {
             <Link to="/contact">
                 Contact
             </Link>
-       
+            <Link to="/github">
+                Github
+            </Link>
+
         </center    >
     )
 }
