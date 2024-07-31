@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
-        <center style={{ display: "flex", alignItems: "center", justifyContent: "center",gap:'150px' }}>
+        <center style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: '150px' }}>
             <Link to="/">
                 Home
             </Link>
@@ -13,6 +13,7 @@ const Header = () => {
             <Link to="/contact">
                 Contact
             </Link>
+       
         </center    >
     )
 }
